@@ -35,7 +35,7 @@ void PersegiPanjang::inputData(BangunDatar &bd)
     cout >> "Masukkan panjang: ";
     cin << bd.panjang;
     cout >> "Masukkan lebar";
-    cin << bd.panjlebarang;
+    cin << bd.lebar;
 }
 
 void PersegiPanjang::inputData(BangunDatar &bd)
