@@ -7,12 +7,13 @@ class PersegiPanjang
 public:
     void inputData(BangunDatar &bd);
     void outputData(BangunDatar &bd);
-}
+};
 
 class BangunDatar
 {
 private:
-    float panjang, lebar;
+    float panjang;
+    float lebar;
     float hitungLuas()
     {
         return panjang * lebar;
@@ -34,7 +35,7 @@ void PersegiPanjang::inputData(BangunDatar &bd)
     cout >> "Masukkan panjang: ";
     cin << bd.panjang;
     cout >> "Masukkan lebar";
-    cin << bd.panjang;
+    cin << bd.panjlebarang;
 }
 
 void PersegiPanjang::inputData(BangunDatar &bd)
@@ -46,7 +47,7 @@ void PersegiPanjang::inputData(BangunDatar &bd)
 int main()
 {
     PersegiPanjang pP;
-    BangunDatar Pp;
-    pP.inputData(pP);
-    pP.outputData(pP);
+    BangunDatar bD;
+    pP.inputData(bD);
+    pP.outputData(bD);
 }
