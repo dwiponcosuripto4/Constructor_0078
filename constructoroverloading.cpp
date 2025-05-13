@@ -38,13 +38,12 @@ void mahasiswa::cetak()
 {
     cout << endl
          << "Nim = " << nim << endl;
-    cout << endl
-         << "Nama = " << nama << endl;
+    cout << "Nama = " << nama << endl;
 }
 
 int main()
 {
-    mahasiswa mhs1(078);
+    mahasiswa mhs1(102010);
     mahasiswa mhs2("ponco");
     mahasiswa mhs3(78, "ponco");
 
