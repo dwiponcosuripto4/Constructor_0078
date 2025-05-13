@@ -41,3 +41,10 @@ void mahasiswa::cetak()
     cout << endl
          << "Nama = " << nama << endl;
 }
+
+int main()
+{
+    mahasiswa mhs1(078);
+    mahasiswa mhs2("ponco");
+    mahasiswa mhs3(78, "ponco");
+}
