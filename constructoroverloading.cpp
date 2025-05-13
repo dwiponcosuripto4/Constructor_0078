@@ -47,4 +47,13 @@ int main()
     mahasiswa mhs1(078);
     mahasiswa mhs2("ponco");
     mahasiswa mhs3(78, "ponco");
+
+    cout << "mahasiswa 1: ";
+    mhs1.cetak();
+    cout << "mahasiswa 2: ";
+    mhs2.cetak();
+    cout << "mahasiswa 3: ";
+    mhs3.cetak();
+
+    return 0;
 }
