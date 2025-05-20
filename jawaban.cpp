@@ -17,28 +17,28 @@ private:
     float hitungLuas()
     {
         return panjang * lebar;
-    }
+    };
     float hitungKeliling()
     {
-        return 2(panjang + lebar);
-    }
+        return 2 * (panjang + lebar);
+    };
 
 public:
     // member
     friend void PersegiPanjang::inputData(BangunDatar &bd);
     // fungsi
-    friend void PersegiPanjang::inputData(BangunDatar &bd);
+    friend void PersegiPanjang::outputData(BangunDatar &bd);
 };
 
 void PersegiPanjang::inputData(BangunDatar &bd)
 {
-    cout >> "Masukkan panjang: ";
-    cin << bd.panjang;
-    cout >> "Masukkan lebar";
-    cin << bd.lebar;
+    cout << "Masukkan panjang: ";
+    cin >> bd.panjang;
+    cout << "Masukkan lebar : ";
+    cin >> bd.lebar;
 }
 
-void PersegiPanjang::inputData(BangunDatar &bd)
+void PersegiPanjang::outputData(BangunDatar &bd)
 {
     cout << "luas: " << bd.hitungLuas() << endl;
     cout << "keliling: " << bd.hitungKeliling() << endl;
@@ -50,4 +50,4 @@ int main()
     BangunDatar bD;
     pP.inputData(bD);
     pP.outputData(bD);
-}
+};
